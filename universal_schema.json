@@ -2,19 +2,37 @@
   "id": "king",
   "symbol": "DOGEUSDT",
   "capital": 70.51,
-  "strategy": {},
+  "parameters": {
+    "ma_fast": 0,
+    "ma_slow": 0,
+    "sl_pct": 0.0,
+    "tp_pct": 0.0
+  },
+  "style_profile": {
+    "risk_tolerance": "medium",
+    "emotional_tendency": "adaptive",
+    "temperature_level": 0.5
+  },
+  "generation": 0,
+  "live_rounds": 0,
   "result": {
     "return_pct": 0.0,
     "sharpe": 0.0,
     "drawdown": 0.0,
-    "win_rate": 0.0
+    "win_rate": 0.0,
+    "trade_count": 0
   },
   "score": 0.0,
   "grade": "N/A",
-  "suggestion": "\u5c1a\u672a\u8a55\u5206",
   "flags": [],
-  "confidence": 0.5,
+  "suggestion": "\u5c1a\u672a\u8a55\u5206",
   "evolution_intent": "",
   "notes": "",
-  "schema_version": "v1.0"
+  "confidence": 0.5,
+  "init_bias_score": 1.0,
+  "training_trace_id": "",
+  "creation_id": "",
+  "schema_version": "v2.0",
+  "updated_at": "",
+  "created_at": ""
 }
