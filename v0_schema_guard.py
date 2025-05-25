@@ -1,5 +1,4 @@
 # v0_schema_guard.py
-
 import json
 from pathlib import Path
 
@@ -21,7 +20,7 @@ def _fill_recursive(schema, data):
                 result[key] = _fill_recursive(value, data[key])
             else:
                 result[key] = value
-                print(f"[SCHEMA] 缺欄位 {key} → 已補預設值 {value}")
+                print(f"[SCHEMA] 補欄位 {key} → 預設 {value}")
         return result
     else:
         return data if data is not None else schema
