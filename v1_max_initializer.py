@@ -1,5 +1,5 @@
 # v1_max_initializer.py
-# MAX 模式：帶人格、風格、基因、策略參數的初始模組 king
+# 完整人格模組初始化器
 
 import json
 from datetime import datetime
@@ -19,21 +19,21 @@ raw_module = {
         "tp_pct": 3.5
     },
     "style_profile": {
-        "risk_tolerance": "medium",
-        "emotional_tendency": "adaptive",
-        "temperature_level": 0.65
+        "risk_tolerance": "high",
+        "emotional_tendency": "aggressive",
+        "temperature_level": 0.72
     },
     "generation": 0,
     "live_rounds": 0,
     "init_bias_score": 1.0,
-    "training_trace_id": "init_doge_line",
+    "training_trace_id": "doge_mainline",
     "creation_id": "v1max_" + datetime.utcnow().strftime("%Y%m%d%H%M%S"),
     "created_at": datetime.utcnow().isoformat()
 }
 
-king_module = validate_and_fill(raw_module)
+module = validate_and_fill(raw_module)
 
 with open(OUTPUT_PATH, "w") as f:
-    json.dump(king_module, f, indent=2)
+    json.dump(module, f, indent=2)
 
-print(f"[V1 MAX] 模組 king 建立成功 → {OUTPUT_PATH}")
+print(f"[V1-MAX] 模組 king 建立完成 → {OUTPUT_PATH}")
