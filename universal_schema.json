@@ -1,0 +1,20 @@
+{
+  "id": "king",
+  "symbol": "DOGEUSDT",
+  "capital": 70.51,
+  "strategy": {},
+  "result": {
+    "return_pct": 0.0,
+    "sharpe": 0.0,
+    "drawdown": 0.0,
+    "win_rate": 0.0
+  },
+  "score": 0.0,
+  "grade": "N/A",
+  "suggestion": "\u5c1a\u672a\u8a55\u5206",
+  "flags": [],
+  "confidence": 0.5,
+  "evolution_intent": "",
+  "notes": "",
+  "schema_version": "v1.0"
+}
